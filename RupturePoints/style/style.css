@@ -1,0 +1,21 @@
+ li{display:inline;
+    border:solid 2px violet;
+    padding: 10px 20px;
+    }
+li:hover{ 
+    background-color: gray;
+    cursor:pointer;
+}
+li>a{
+    text-decoration: none;
+    color: black;
+}
+ @media screen and (max-width:1024px){
+ #i4{display:none;} 
+    }
+@media screen and (max-width:768px){
+    #i3{display:none;} 
+   }
+@media screen and (max-width:480px){
+    #i2{display:none;} 
+   }
